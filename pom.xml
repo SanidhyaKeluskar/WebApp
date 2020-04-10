@@ -79,4 +79,11 @@
 				
 		</plugins>
 	</build>
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>sanidhyadev-artifactory-primary-0-releases</name>
+        <url>https://sanidhyadev.jfrog.io/artifactory/libs-release</url>
+    </repository>
+</distributionManagement>
 </project>
